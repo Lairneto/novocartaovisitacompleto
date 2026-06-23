@@ -34,7 +34,6 @@
             position: relative;
         }
 
-        /* Seletor de Idioma */
         .lang-selector {
             display: flex;
             justify-content: flex-end;
@@ -59,7 +58,6 @@
             border-color: #e31c1c;
         }
 
-        /* Container Logomarca MADEL */
         .company-logo-container {
             margin-bottom: 24px;
             display: flex;
@@ -78,7 +76,6 @@
             display: block;
         }
 
-        /* Container da Foto de Perfil Redonda */
         .avatar-container {
             width: 90px;
             height: 90px;
@@ -124,7 +121,6 @@
             padding: 0 10px;
         }
 
-        /* Caixa de Informações */
         .company-info-box {
             background-color: #171717;
             border-radius: 8px;
@@ -139,6 +135,7 @@
             color: #a6a6a6;
             margin-bottom: 6px;
         }
+
         .info-item:last-child {
             margin-bottom: 0;
         }
@@ -169,14 +166,12 @@
             gap: 12px;
         }
 
-        /* Grid para Redes Sociais ficarem organizadas em 2 colunas */
         .social-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 10px;
         }
 
-        /* Botões */
         .btn-link {
             display: flex;
             align-items: center;
@@ -212,11 +207,11 @@
             border-color: #ffffff;
         }
 
-        /* Botão WeChat */
         .btn-wechat {
             background-color: #07c160;
             border-color: #07c160;
         }
+
         .btn-wechat:hover {
             background-color: #ffffff;
             color: #07c160;
@@ -224,7 +219,6 @@
             box-shadow: 0 4px 12px rgba(7, 193, 96, 0.3);
         }
 
-        /* Janela Modal do QR Code WeChat */
         .modal {
             display: none;
             position: fixed;
@@ -348,7 +342,7 @@
             </button>
         </div>
 
-        <!-- SEU PERFIL (REDES SOCIAIS LAIR) -->
+        <!-- SEU PERFIL -->
         <div id="sec-my-socials" class="section-label">Meus Canais</div>
         <div class="social-grid">
             <a href="https://linkedin.com/in/lairneto" target="_blank" class="btn-link" id="btn-my-in">
@@ -368,7 +362,7 @@
             </a>
         </div>
 
-        <!-- INSTITUCIONAL (REDES SOCIAIS MADEL) -->
+        <!-- INSTITUCIONAL MADEL -->
         <div id="sec-madel-socials" class="section-label">Canais MADEL</div>
         <div class="social-grid">
             <a href="https://instagram.com/madelmadeiras" target="_blank" class="btn-link" id="btn-md-ig">
@@ -401,7 +395,6 @@
         </div>
     </div>
 
-    <!-- JANELA MODAL DO QR CODE WECHAT -->
     <div id="qr-modal" class="modal" onclick="closeModalOutside(event)">
         <div class="modal-content">
             <img src="wechat-qr.png" alt="WeChat QR Code Lair Neto">
@@ -410,7 +403,6 @@
         </div>
     </div>
 
-    <!-- Script de Idiomas e Janela Modal -->
     <script>
         const translations = {
             pt: {
@@ -454,11 +446,10 @@
                 bio: "针对零售连锁店的高端产品组合开发与战略商务谈判。",
                 company: "公司:",
                 coverage: "服务范围:",
-                coverageVal: "国内与国际 market",
+                coverageVal: "国内与国际市场",
                 secDirect: "直接联系方式",
-                secIntl: "国际采购与亚洲市场",
-                secMySocials: "个人社交媒体",
-                secMadelSocials: "MADEL 官方频道",
+                secIntl: "国际采购与亚洲 market",
+                secSocials: "社交媒体与企业官方频道",
                 secPartners: "合作伙伴与供应商登记",
                 btnWa: "通过 WhatsApp 联系",
                 btnMail: "发送企业电子邮箱",
